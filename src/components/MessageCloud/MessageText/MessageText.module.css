@@ -1,0 +1,10 @@
+.text {
+    margin-top: 6px;
+}
+
+.time {
+    font-size: 13px;
+    position: absolute;
+    right: 18px;
+    bottom: 8px;
+}
