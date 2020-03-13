@@ -1,0 +1,24 @@
+.name {
+    border: 1px solid #e3e3e3;
+    color: #e3e3e3;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 29px;
+    font-weight: bold;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgb(224, 108, 108), rgb(79, 65, 80));
+    max-width: 400px;
+    max-height: 150px;
+    box-shadow: 0 2px 6px 0 #e7aaaa;
+}
+
+.nameItem {
+    font-size: 23px;
+    color: #f5bebe;
+}
+.secondItem {
+    color: gold;
+}

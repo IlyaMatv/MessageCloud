@@ -1,6 +1,7 @@
-body {
+.wrap {
     display: flex;
-    height: 100vh;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
+    height: 100vh;
 }
