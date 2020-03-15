@@ -5,7 +5,7 @@ const MessageText = (props) => {
 
     return (
         <div className={classes.text}>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium ipsa nesciunt laudantium.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quia nam incidunt.
             <div className={classes.time}>21:00</div>
         </div>
     )

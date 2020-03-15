@@ -15,10 +15,11 @@
     box-shadow: 0 2px 6px 0 #e7aaaa;
 }
 
+.gold {
+    font-size: 23px;
+    color: gold;
+}
 .nameItem {
     font-size: 23px;
     color: #f5bebe;
-}
-.secondItem {
-    color: gold;
 }

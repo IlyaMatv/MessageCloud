@@ -7,8 +7,10 @@ const NameCmp = (props) => {
 
     const allQualities = ['буддист', 'контрабандист', 'тракторист']
     const qualities = allQualities.map((el, index) => {
-        return (<div key={index} className={classes.nameItem}>{el}</div>)
-    })
+        return (<div key={index} className={index === 1 ? classes.gold : classes.nameItem} >{el}</div>)
+    }) 
+    
+
 
     return (
         <div className={classes.name}>
