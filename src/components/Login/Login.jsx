@@ -16,7 +16,7 @@ class Login extends React.Component {
         let name = this.input.current.value
         this.input.current.value = ''
         if (name === '') {
-            return
+            return alert('enter your name')
         }
         this.setState((state) => {
             return {count: state.count + 1}
