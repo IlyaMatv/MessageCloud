@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fbaf78edcc9491f4c22bc5a2499c0e46",
+    "revision": "40dba40203551cb6ac1b5556fa69eccd",
     "url": "/MessageCloud/index.html"
   },
   {
-    "revision": "87f617a3aa4cba4f87b1",
+    "revision": "5ac6a17c71e842d60e36",
     "url": "/MessageCloud/static/css/main.237f0f34.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MessageCloud/static/js/2.4d990566.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "87f617a3aa4cba4f87b1",
-    "url": "/MessageCloud/static/js/main.4a68dd91.chunk.js"
+    "revision": "5ac6a17c71e842d60e36",
+    "url": "/MessageCloud/static/js/main.5ac43413.chunk.js"
   },
   {
     "revision": "df47a8acec30fb4a6374",
