@@ -4,9 +4,7 @@ import React from 'react'
 const LoginInput = (props) => {
 
     return (
-        <div>
             <input value={props.value} onChange={props.onTitleChanged} type="text" placeholder="your name" />
-        </div>
     )
 }
 
