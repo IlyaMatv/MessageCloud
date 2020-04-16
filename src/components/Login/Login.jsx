@@ -9,41 +9,32 @@ class Login extends React.Component {
 
     state = {
         count: 0,
-        users: [],
-        title: ''
+        users: []
     }
 
-    onTitleChanged = (e) => {
-        this.setState({
-            title: e.currentTarget.value
-        })
-    }
-
-    onAddName = () => {
-        let newName = this.state.title
-        this.setState({title: ''})
-        let usersName = [...this.state.users, newName]
-        if (newName === '') {
-            return alert('enter your name')
-        }
-        this.setState((state) => {
-            return {
-                count: state.count + 1, 
-                users: usersName
-            }
-        })
-        alert(`Welcome ${newName}`)
+    addUser = (newUsers) => {
+        this.setState({count: this.state.count + 1, users: newUsers})
     }
 
     render = () => {
-        
+
         return (
             <div className={classes.login}>
-                <LoginCount count={this.state.count}/>
-                <LoginInput value={this.state.title} onTitleChanged={this.onTitleChanged} />
-                <LoginButton addName={this.onAddName}/>
+                <LoginCount count={this.state.count} />
 
-                <LoginUsers users={this.state.users}/>
+                <LoginInput
+                    addUser={this.addUser}
+                    count={this.state.count}
+                    users={this.state.users}
+                // error={this.state.error}
+                // className={classes.error}
+                // value={this.state.title}
+                // onKeyPress={this.onKeyPress}
+                // onTitleChanged={this.onTitleChanged} 
+                />
+
+                <LoginButton addName={this.onAddName} />
+                <LoginUsers users={this.state.users} />
             </div>
         )
 

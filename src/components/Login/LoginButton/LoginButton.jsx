@@ -3,7 +3,7 @@ import React from 'react'
 const LoginButton = (props) => {
 
     return (
-            <button onClick={props.addName}>click!</button>
+        <button onClick={props.addName}>click!</button>
     )
 }
 
