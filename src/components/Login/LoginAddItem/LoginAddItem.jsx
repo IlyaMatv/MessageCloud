@@ -1,8 +1,7 @@
 import React from 'react'
-import classes from './LoginInput.module.css'
+import classes from './LoginAddItem.module.css'
 
-class LoginInput extends React.Component {
-
+class LoginAddItem extends React.Component {
 
     state = {
         title: '',
@@ -28,7 +27,7 @@ class LoginInput extends React.Component {
                 return {
                     error: false
                 }
-            },this.props.addUser(usersName))
+            }, this.props.addUser(usersName))
             alert(`Welcome ${newName}`)
         }
     }
@@ -41,19 +40,21 @@ class LoginInput extends React.Component {
 
 
     render = () => {
-        
+
         let classError = this.state.error === true ? classes.error : ''
 
-
         return (
-            <input className={classError}
-                value={this.state.title}
-                onKeyPress={this.onKeyPress}
-                onChange={this.onTitleChanged}
-                type="text" placeholder="your name" />
+            <>
+                <input className={classError}
+                    value={this.state.title}
+                    onKeyPress={this.onKeyPress}
+                    onChange={this.onTitleChanged}
+                    type="text" placeholder="your name" />
+                <button onClick={this.onAddName}>click!</button>
+            </>
         )
     }
 
 }
 
-export default LoginInput
+export default LoginAddItem

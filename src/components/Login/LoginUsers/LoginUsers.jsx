@@ -7,7 +7,6 @@ const LoginUsers = (props) => {
         return `${user}; `
     })
 
-
     return (
         <div className={classes.users}>
             {users}
