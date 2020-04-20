@@ -1,0 +1,45 @@
+.dropdown {
+    height: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: rgb(24, 212, 212);
+    padding: 20px 80px;
+    color: rgb(88, 69, 209);
+    font-size: 22px;
+    border: none;
+}
+
+.navbar {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 273px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.navbar a {
+    color: black;
+    padding: 22px 26px;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+}
+
+.navbar a.active {
+    background-color: rgb(179, 179, 179);
+}
+
+.dropdown:hover .navbar {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(22, 163, 163);
+}

@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
-import MessageCloud from './components/MessageCloud/MessageCloud';
-import NameCmp from './components/NameCmp/NameCmp';
-import Login from './components/Login/Login';
-import { Route, NavLink } from 'react-router-dom';
+import Navbar from './components/Navbar/Navbar';
+import { Route } from 'react-router-dom';
+import Monday from './components/Monday/Monday'
+import Tuesday from './components/Tuesday/Tuesday';
+
 
 
 function App() {
@@ -11,19 +12,15 @@ function App() {
     <div className="wrap">
 
 
-      {/* <div className="dropdown">
-        <div>choose day</div>
-        <nav className="navbar">
-          <a href="#"></a>
-          <a href="#"></a>
-        </nav>
+      <div className="navbar_wrap">
+        <Navbar />
       </div>
- */}
 
+      <div className="content_wrap">
+        <Route path='/Monday' render={() => <Monday />} />
+        <Route path='/Tuesday' render={() => <Tuesday />} />
+      </div>
 
-      <NameCmp />
-      <MessageCloud />
-      <Login />
 
     </div>
   );

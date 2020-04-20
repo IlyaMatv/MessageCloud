@@ -7,13 +7,8 @@
     position: relative;
 }
 
-.dropdown {
+.navbar_wrap {
     position: absolute;
-    background-color: rgb(24, 212, 212);
-    border-radius: 6px;
-    padding: 20px 80px;
-    color: rgb(88, 69, 209);
-    font-size: 22px;
     left: 20px;
     top: 20px;
 }

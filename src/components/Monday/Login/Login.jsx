@@ -31,7 +31,6 @@ class Login extends React.Component {
                 <LoginUsers users={this.state.users} />
             </div>
         )
-
     }
 }
 
