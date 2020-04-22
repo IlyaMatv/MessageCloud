@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/MessageCloud/static/css/main.6d5cc48c.chunk.css",
-    "main.js": "/MessageCloud/static/js/main.4a79ce90.chunk.js",
-    "main.js.map": "/MessageCloud/static/js/main.4a79ce90.chunk.js.map",
+    "main.css": "/MessageCloud/static/css/main.1e71a7c0.chunk.css",
+    "main.js": "/MessageCloud/static/js/main.382d4faf.chunk.js",
+    "main.js.map": "/MessageCloud/static/js/main.382d4faf.chunk.js.map",
     "runtime-main.js": "/MessageCloud/static/js/runtime-main.2710b7a5.js",
     "runtime-main.js.map": "/MessageCloud/static/js/runtime-main.2710b7a5.js.map",
-    "static/js/2.5d168956.chunk.js": "/MessageCloud/static/js/2.5d168956.chunk.js",
-    "static/js/2.5d168956.chunk.js.map": "/MessageCloud/static/js/2.5d168956.chunk.js.map",
+    "static/js/2.2b2d201a.chunk.js": "/MessageCloud/static/js/2.2b2d201a.chunk.js",
+    "static/js/2.2b2d201a.chunk.js.map": "/MessageCloud/static/js/2.2b2d201a.chunk.js.map",
     "index.html": "/MessageCloud/index.html",
-    "precache-manifest.d60d207e3ea99fc3ba50fd64f76d1186.js": "/MessageCloud/precache-manifest.d60d207e3ea99fc3ba50fd64f76d1186.js",
+    "precache-manifest.3371f15426d383add38f4f37365f17e3.js": "/MessageCloud/precache-manifest.3371f15426d383add38f4f37365f17e3.js",
     "service-worker.js": "/MessageCloud/service-worker.js",
-    "static/css/main.6d5cc48c.chunk.css.map": "/MessageCloud/static/css/main.6d5cc48c.chunk.css.map",
-    "static/js/2.5d168956.chunk.js.LICENSE.txt": "/MessageCloud/static/js/2.5d168956.chunk.js.LICENSE.txt"
+    "static/css/main.1e71a7c0.chunk.css.map": "/MessageCloud/static/css/main.1e71a7c0.chunk.css.map",
+    "static/js/2.2b2d201a.chunk.js.LICENSE.txt": "/MessageCloud/static/js/2.2b2d201a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2710b7a5.js",
-    "static/js/2.5d168956.chunk.js",
-    "static/css/main.6d5cc48c.chunk.css",
-    "static/js/main.4a79ce90.chunk.js"
+    "static/js/2.2b2d201a.chunk.js",
+    "static/css/main.1e71a7c0.chunk.css",
+    "static/js/main.382d4faf.chunk.js"
   ]
 }
