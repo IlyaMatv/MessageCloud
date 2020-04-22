@@ -1,10 +1,12 @@
 import React from 'react'
+import TodoList from './TodoList/TodoList'
+import classes from './Tuesday.module.css'
 
 const Tuesday = (props) => {
 
     return (
-        <div>
-            <h1>Tuesday</h1>
+        <div className={classes}>
+            <TodoList />
         </div>
     )
 }
