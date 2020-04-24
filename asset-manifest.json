@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/MessageCloud/static/css/main.1e71a7c0.chunk.css",
-    "main.js": "/MessageCloud/static/js/main.382d4faf.chunk.js",
-    "main.js.map": "/MessageCloud/static/js/main.382d4faf.chunk.js.map",
+    "main.js": "/MessageCloud/static/js/main.e984849c.chunk.js",
+    "main.js.map": "/MessageCloud/static/js/main.e984849c.chunk.js.map",
     "runtime-main.js": "/MessageCloud/static/js/runtime-main.2710b7a5.js",
     "runtime-main.js.map": "/MessageCloud/static/js/runtime-main.2710b7a5.js.map",
     "static/js/2.2b2d201a.chunk.js": "/MessageCloud/static/js/2.2b2d201a.chunk.js",
     "static/js/2.2b2d201a.chunk.js.map": "/MessageCloud/static/js/2.2b2d201a.chunk.js.map",
     "index.html": "/MessageCloud/index.html",
-    "precache-manifest.3371f15426d383add38f4f37365f17e3.js": "/MessageCloud/precache-manifest.3371f15426d383add38f4f37365f17e3.js",
+    "precache-manifest.8fb715151c27f1ad4fbbfa7e48a3d585.js": "/MessageCloud/precache-manifest.8fb715151c27f1ad4fbbfa7e48a3d585.js",
     "service-worker.js": "/MessageCloud/service-worker.js",
     "static/css/main.1e71a7c0.chunk.css.map": "/MessageCloud/static/css/main.1e71a7c0.chunk.css.map",
     "static/js/2.2b2d201a.chunk.js.LICENSE.txt": "/MessageCloud/static/js/2.2b2d201a.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.2710b7a5.js",
     "static/js/2.2b2d201a.chunk.js",
     "static/css/main.1e71a7c0.chunk.css",
-    "static/js/main.382d4faf.chunk.js"
+    "static/js/main.e984849c.chunk.js"
   ]
 }
