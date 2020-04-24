@@ -9,7 +9,9 @@ import { saveState, restoreState } from '../../../localStorageSave'
 class TodoList extends React.Component {
 
     componentDidMount() {
+      
         let newState = restoreState('our-state', this.state)
+       
         this.setState(newState, () => {
             newState.tasks.forEach(task => {
                 if (task.id >= this.nextTaskId) {
@@ -30,6 +32,7 @@ class TodoList extends React.Component {
 
 
     addTask = (newText) => {
+    
         let newTask = {
             id: this.nextTaskId,
             title: newText,
@@ -55,7 +58,7 @@ class TodoList extends React.Component {
     onFilterChanged = (newFilterValue) => {
         this.setState({
             filterValue: newFilterValue
-        }, saveState("our-state", this.state));
+        }, () => {saveState("our-state", this.state)});
     }
 
     changeTask = (taskId, obj) => {
@@ -69,9 +72,10 @@ class TodoList extends React.Component {
         });
         this.setState({
             tasks: newTasks
+        }, () => {
+            saveState("our-state", this.state)
         })
     }
-
 
     onTaskStatusChanged = (taskId, isDone) => {
         this.changeTask(taskId, { isDone: isDone })
